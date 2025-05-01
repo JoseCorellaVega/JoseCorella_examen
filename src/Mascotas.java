@@ -1,9 +1,7 @@
 public class Mascotas {
-    public class Juego
-    {
+    public class Juego {
 
-        public enum Especie
-        {
+        public enum Especie {
             CacatuaBlanca,
             BoaConstrictor,
             TitiDorado,
@@ -22,49 +20,43 @@ public class Mascotas {
 
         private int tamano;
 
-        public Mascota( Especie pespecie, int ptamanio, int pPrecio, int pVidaPromedio , int pCantidadEspecies, int pcantidadvendidas)
-        {
+        private int edad;
+
+        public void Mascotas(Especie pespecie, int ptamano, int pPrecio, int pVidaPromedio, int pCantidadEspecies, int pCantidadVendidas, int pedad) {
             Especie = pespecie;
             precio = pPrecio;
             vidapromedio = pVidaPromedio;
             cantidadespecies = pCantidadEspecies;
             cantidadVendidas = 0;
-            tamano = ptamanio;
-
+            tamano = ptamano;
+            edad = pedad;
         }
 
-        public Especie Especie( )
-        {
+        public Especie Especie() {
             return Especie;
         }
 
-        public darVidaPromedio( )
-        {
+        public int VidaPromedio() {
             return vidapromedio;
         }
 
-
-        public int darPrecio( )
-        {
+        public int darPrecio() {
             return precio;
         }
 
-        public int dar tamano( )
-        {
+        public int dartamano() {
             return tamano;
         }
 
-
-        public int darCantidadespecies( )
-        {
+        public int darCantidadespecies() {
             return cantidadespecies;
         }
 
-
-        public int darCantidadVendidas( )
-        {
+        public int darCantidadVendidas() {
             return cantidadVendidas;
         }
+    }}
+
 
 
 
