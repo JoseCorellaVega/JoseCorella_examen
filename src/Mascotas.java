@@ -22,7 +22,7 @@ public class Mascotas {
 
         private int tamano;
 
-        public Mascota( Especie pespecie, int ptamanio, int pPrecio, int pVidaPromedio , int pCantidadEspecies, int pCantidadVendidas)
+        public Mascota( Especie pespecie, int ptamanio, int pPrecio, int pVidaPromedio , int pCantidadEspecies, int pcantidadvendidas)
         {
             Especie = pespecie;
             precio = pPrecio;
@@ -38,7 +38,7 @@ public class Mascotas {
             return Especie;
         }
 
-        public darVidaPromediodar( )
+        public darVidaPromedio( )
         {
             return vidapromedio;
         }
@@ -53,8 +53,8 @@ public class Mascotas {
         {
             return tamano;
         }
-        }
-    }
+
+
         public int darCantidadespecies( )
         {
             return cantidadespecies;
